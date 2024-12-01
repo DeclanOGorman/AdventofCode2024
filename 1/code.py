@@ -7,4 +7,4 @@ diffs = [abs(setA[i] - setB[i]) for i in range(0,len(setA))]
 print(f'Part A: sum of deviations = {sum(diffs)}') #test assert = 11
 
 sim = [a*setB.count(a) for a in setA]
-print(f'Part B: sum of calibration = {sum(sim)}') #test assert = 31
+print(f'Part B: sum of similarity score = {sum(sim)}') #test assert = 31
