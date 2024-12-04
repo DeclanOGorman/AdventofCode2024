@@ -1,6 +1,10 @@
 import shutil
+import os
 
-day = 3
+day = 4
+
+# Create new directory
+os.mkdir(f'./{day}')
 
 # Copy file to new directory and rename it
 shutil.copyfile('./Template/code.py', f'./{day}/code.py')
