@@ -3,7 +3,6 @@ with open('./X/test.txt', 'r') as f:
 
 
 
-print(f'Part A: answer = { '' }') #test assert = 
+print(f'Part A: answer = { 0+0 }') #test assert = 
 
-
-print(f'Part B: answer = { '' }') #test assert = 
+print(f'Part B: answer = { 0+0 }') #test assert = 
